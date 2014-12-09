@@ -1,0 +1,28 @@
+{
+	"ImportPath": "github.com/att-innovate/charmander-heapster",
+	"GoVersion": "go1.3.3",
+	"Packages": [
+		"github.com/att-innovate/charmander-heapster"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "44145f04b68cf362d9c4df2182967c2275eaefed"
+		},
+		{
+			"ImportPath": "github.com/google/cadvisor/client",
+			"Comment": "0.6.2-17-g65c872b",
+			"Rev": "65c872bd8ec948c772fd805772d80274810494f6"
+		},
+		{
+			"ImportPath": "github.com/google/cadvisor/info",
+			"Comment": "0.6.2-17-g65c872b",
+			"Rev": "65c872bd8ec948c772fd805772d80274810494f6"
+		},
+		{
+			"ImportPath": "github.com/influxdb/influxdb/client",
+			"Comment": "v0.8.6-171-g1e8e1f2",
+			"Rev": "1e8e1f223c9ed5994f3f0ec28c3c9d862abcc44f"
+		}
+	]
+}
