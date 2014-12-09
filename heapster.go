@@ -11,7 +11,7 @@ import (
 	"github.com/golang/glog"
 )
 
-var argPollDuration = flag.Duration("poll_duration", 10*time.Second, "Polling duration")
+var argPollDuration = flag.Duration("poll_duration", 15*time.Second, "Polling duration")
 
 func main() {
 	flag.Parse()
