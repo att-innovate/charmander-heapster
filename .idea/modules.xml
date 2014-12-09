@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/heapster.iml" filepath="$PROJECT_DIR$/.idea/heapster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/charmander-heapster.iml" filepath="$PROJECT_DIR$/.idea/charmander-heapster.iml" />
     </modules>
   </component>
 </project>

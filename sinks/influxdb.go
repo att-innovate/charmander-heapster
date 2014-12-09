@@ -3,7 +3,6 @@ package sinks
 import (
 	"flag"
 	"fmt"
-	"strings"
 	"time"
 
 	"github.com/att-innovate/charmander-heapster/sources"
@@ -28,31 +27,10 @@ type InfluxdbSink struct {
 	lastWrite      time.Time
 }
 
-func (self *InfluxdbSink) containerStatsToValues(pod *sources.Pod, hostname, containerName string, spec cadvisor.ContainerSpec, stat *cadvisor.ContainerStats) (columns []string, values []interface{}) {
+func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string, spec cadvisor.ContainerSpec, stat *cadvisor.ContainerStats) (columns []string, values []interface{}) {
 	// Timestamp
 	columns = append(columns, colTimestamp)
 	values = append(values, stat.Timestamp.Unix())
-
-	if pod != nil {
-		// Pod name
-		columns = append(columns, colPodName)
-		values = append(values, pod.Name)
-
-		// Pod Status
-		columns = append(columns, colPodStatus)
-		values = append(values, pod.Status)
-
-		// Pod IP
-		columns = append(columns, colPodIP)
-		values = append(values, pod.PodIP)
-
-		labels := []string{}
-		for key, value := range pod.Labels {
-			labels = append(labels, fmt.Sprintf("%s:%s", key, value))
-		}
-		columns = append(columns, colLabels)
-		values = append(values, strings.Join(labels, ","))
-	}
 
 	// Hostname
 	columns = append(columns, colHostName)
@@ -111,22 +89,11 @@ func (self *InfluxdbSink) newSeries(tableName string, columns []string, points [
 	return out
 }
 
-func (self *InfluxdbSink) handlePods(pods []sources.Pod) {
-	for _, pod := range pods {
-		for _, container := range pod.Containers {
-			for _, stat := range container.Stats {
-				col, val := self.containerStatsToValues(&pod, pod.Hostname, container.Name, container.Spec, stat)
-				self.series = append(self.series, self.newSeries(statsTable, col, val))
-			}
-		}
-	}
-}
-
 func (self *InfluxdbSink) handleContainers(containers []sources.RawContainer, tableName string) {
 	// TODO(vishh): Export spec into a separate table and update it whenever it changes.
 	for _, container := range containers {
 		for _, stat := range container.Stats {
-			col, val := self.containerStatsToValues(nil, container.Hostname, container.Name, container.Spec, stat)
+			col, val := self.containerStatsToValues(container.Hostname, container.Name, container.Spec, stat)
 			self.series = append(self.series, self.newSeries(tableName, col, val))
 		}
 	}
@@ -139,7 +106,6 @@ func (self *InfluxdbSink) readyToFlush() bool {
 func (self *InfluxdbSink) StoreData(ip Data) error {
 	var seriesToFlush []*influxdb.Series
 	if data, ok := ip.(sources.ContainerData); ok {
-		self.handlePods(data.Pods)
 		self.handleContainers(data.Containers, statsTable)
 		self.handleContainers(data.Machine, machineTable)
 	} else {

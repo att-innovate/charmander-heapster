@@ -2,282 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cce85a4-9e34-42c3-aade-4c4248288714" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/Godeps.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/Readme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/dce.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/hash.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/node.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/time.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/uuid.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/uuid_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/version1.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/go-uuid/uuid/version4.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/example/oauthreq.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt/example/example.client_secrets.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt/example/example.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt/example/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt/jwt.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt/jwt_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/oauth.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/oauth_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/bigquery/v2/bigquery-api.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/bigquery/v2/bigquery-gen.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/googleapi.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/googleapi_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/internal/uritemplates/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/internal/uritemplates/uritemplates.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/internal/uritemplates/utils.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/transport/apikey.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi/types_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/context.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/context_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/conversion.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/errors.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/errors_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/etcd/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/etcd/etcd.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/validation.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/errors/validation_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/helpers.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/latest/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/latest/latest.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/latest/latest_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/interfaces.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/meta.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/meta_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/restmapper.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta/restmapper_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/meta_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/ref.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/ref_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/register.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/serialization_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/testapi/testapi.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/unversioned.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta1/conversion.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta1/conversion_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta1/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta1/register.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta1/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta2/conversion.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta2/conversion_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta2/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta2/register.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta2/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta3/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta3/register.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/v1beta3/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/events.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/events_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/schema.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/schema_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/v1beta1-swagger.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/validation.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/api/validation/validation_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/fifo.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/fifo_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/poller.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/poller_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/reflector.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/reflector_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/store.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/cache/store_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/client.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/client_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/clientcmd/auth_loaders.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/clientcmd/client_builder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/clientcmd/client_builder_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/clientcmd/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/clientcmd/provided_flags.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/conditions.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/containerinfo.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/containerinfo_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/endpoints.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/events.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/events_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_endpoints.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_events.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_minions.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_pods.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_replication_controllers.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_services.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/fake_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/flags.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/flags_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/helper.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/helper_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/kubelet.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/kubelet_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/minions.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/pods.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/record/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/record/event.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/record/event_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/replication_controllers.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/request.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/request_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/restclient.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/restclient_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/services.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/transport.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/client/transport_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/converter.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/converter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/decode.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/encode.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/meta.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/meta_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/scheme.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/conversion/scheme_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/exec.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/exec_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/health.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/health_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/http.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/http_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/tcp.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/health/tcp_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/labels/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/labels/labels.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/labels/labels_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/labels/selector.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/labels/selector_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/codec.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/embedded.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/embedded_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/extension.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/helper.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/helper_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/interfaces.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/scheme.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/scheme_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/runtime/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/config/config.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/config/config_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/config/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/diff.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/error_list.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/error_list_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/exec/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/exec/exec.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/exec/exec_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/exec/fake_exec.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/fake_handler.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/fake_handler_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/iptables/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/iptables/iptables.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/iptables/iptables_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/list.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/list_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/logs.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/net.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/net_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/runner.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/runner_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/set.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/set_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/throttle.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/throttle_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/time.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/time_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/util_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/uuid.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/validation.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/validation_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/wait/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/wait/wait.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/util/wait/wait_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/version/base.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/version/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/version/verflag/verflag.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/version/version.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/filter.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/filter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/iowatcher.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/iowatcher_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/decoder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/decoder_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/encoder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/encoder_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/json/types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/mux.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/mux_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/watch.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/GoogleCloudPlatform/kubernetes/pkg/watch/watch_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/golang/glog/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/golang/glog/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/golang/glog/glog.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/golang/glog/glog_file.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/golang/glog/glog_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/client/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/client/client.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/client/client_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/container.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/container_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/machine.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/test/datagen.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/version.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/storage/bigquery/client/client.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/storage/bigquery/client/example/example.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/influxdb/influxdb/client/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/influxdb/influxdb/client/influxdb.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/influxdb/influxdb/client/series.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/github.com/influxdb/influxdb/client/shard_space.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/golang.org/x/net/context/context.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/golang.org/x/net/context/context_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/golang.org/x/net/context/withtimeout_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/LICENSE.libyaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/apic.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/decode.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/decode_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/emitterc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/encode.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/encode_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/parserc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/readerc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/resolve.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/scannerc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/sorter.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/suite_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/writerc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/yaml.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/yamlh.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Godeps/_workspace/src/gopkg.in/v1/yaml/yamlprivateh.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clusters/coreos/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clusters/coreos/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clusters/coreos/buddy.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clusters/coreos/gce-cloud-config-with-cadvisor.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sinks/bigquery.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sinks/memory.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/http.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/kube.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heapster.go" afterPath="$PROJECT_DIR$/heapster.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/heapster.iml" afterPath="$PROJECT_DIR$/.idea/charmander-heapster.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/external.go" afterPath="$PROJECT_DIR$/sources/external.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sinks/influxdb.go" afterPath="$PROJECT_DIR$/sinks/influxdb.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sinks/types.go" afterPath="$PROJECT_DIR$/sinks/types.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/types.go" afterPath="$PROJECT_DIR$/sources/types.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/version.go" afterPath="$PROJECT_DIR$/version.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="heapster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -343,8 +76,8 @@
       <file leaf-file-name="cadvisor.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/cadvisor.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="17" column="71" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state vertical-scroll-proportion="-7.3846154" vertical-offset="243" max-vertical-offset="1140">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -353,44 +86,21 @@
       <file leaf-file-name="external.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/external.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1125">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="15" max-vertical-offset="810">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.go" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TODO.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO.md">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RELEASES.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RELEASES.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="360">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -399,8 +109,8 @@
       <file leaf-file-name="types.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.576923" vertical-offset="15" max-vertical-offset="735">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -409,28 +119,8 @@
       <file leaf-file-name="heapster.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heapster.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="870">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Readme" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Godeps/Readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Godeps.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Godeps/Godeps.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -441,6 +131,46 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.go" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.go" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/container.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2930" max-vertical-offset="5775">
+              <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="influxdb.go" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sinks/influxdb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6510417" vertical-offset="0" max-vertical-offset="2430">
+              <caret line="25" column="106" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Godeps.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Godeps/Godeps.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -466,19 +196,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sinks/influxdb.go" />
-        <option value="$PROJECT_DIR$/sources/types.go" />
         <option value="$PROJECT_DIR$/sinks/types.go" />
         <option value="$PROJECT_DIR$/clusters/coreos/buddy.go" />
         <option value="$PROJECT_DIR$/heapster.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/version.go" />
+        <option value="$PROJECT_DIR$/sources/types.go" />
+        <option value="$PROJECT_DIR$/sinks/influxdb.go" />
+        <option value="$PROJECT_DIR$/sources/external.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2055" />
-    <option name="y" value="312" />
-    <option name="width" value="1517" />
-    <option name="height" value="790" />
+    <option name="x" value="1954" />
+    <option name="y" value="112" />
+    <option name="width" value="1470" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -516,51 +249,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charmander-heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charmander-heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charmander-heapster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -794,10 +489,15 @@
       <created>1417931186897</created>
       <updated>1417931186897</updated>
     </task>
+    <task id="LOCAL-00001" summary="readme update">
+      <created>1418164388491</created>
+      <updated>1418164388491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2055" y="312" width="1517" height="790" extended-state="6" />
+    <frame x="1954" y="112" width="1470" height="1060" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -805,18 +505,19 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32795155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24456163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25238097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -839,6 +540,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -969,17 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1185">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
@@ -992,62 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="390">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinks/influxdb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2940">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/cadvisor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinks/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heapster.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="870">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/external.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1090,6 +726,168 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Godeps/_workspace/src/github.com/google/cadvisor/info/container.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2930" max-vertical-offset="5775">
+          <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heapster.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="870">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinks/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/cadvisor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3846154" vertical-offset="243" max-vertical-offset="1140">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.576923" vertical-offset="15" max-vertical-offset="735">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="360">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/external.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="15" max-vertical-offset="810">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinks/influxdb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6510417" vertical-offset="0" max-vertical-offset="2430">
+          <caret line="25" column="106" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>charmander-heapster</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
