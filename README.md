@@ -1,6 +1,9 @@
 Heapster
 ===========
 
+Note .. work in progress .. making it part of charmander
+
+
 _Warning: Virtual Machines need to have at least 2 cores for InfluxDB to perform optimally._
 
 Heapster enables monitoring of Clusters using [cAdvisor](https://github.com/google/cadvisor).
