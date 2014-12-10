@@ -1,11 +1,13 @@
 package sources
 
 import (
+	"flag"
 //	"encoding/json"
 
 	"github.com/golang/glog"
 )
 
+var redisHost = flag.String("source_redis_host", "127.0.0.1:6379", "Redis IP Address:Port")
 
 type ExternalSource struct {
 	cadvisor *cadvisorSource

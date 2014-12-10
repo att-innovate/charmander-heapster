@@ -41,7 +41,8 @@ func doWork() error {
 		case <-ticker.C:
 			data, err := source.GetInfo()
 			if err != nil {
-				return err
+				glog.Error(err)
+				continue
 			}
 			if err := sink.StoreData(data); err != nil {
 				return err
