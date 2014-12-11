@@ -6,7 +6,6 @@ import (
 	"time"
 	"strconv"
 	"bufio"
-	"fmt"
 
 //	"encoding/json"
 
@@ -71,17 +70,21 @@ func sendCommand(connection net.Conn, args ...string) {
 
 func parseResult(connection net.Conn) *[]string {
 	bufferedInput := bufio.NewReader(connection)
-	line, err := bufferedInput.ReadString('\r')
+	line, _, err := bufferedInput.ReadLine()
 	if err != nil {
-		glog.Errorf("error parsing redis respons %s\n", err)
+		glog.Errorf("error parsing redis response %s\n", err)
 		return &[]string {}
 	}
-	glog.Infoln(line[1:])
-	numberOfHosts, _ := strconv.Atoi(line[1:])
-	fmt.Println(numberOfHosts)
-	line, _ = bufferedInput.ReadString('\r')
-	glog.Infoln(line[1:])
-	return &[]string {"slave1", "slave2", "slave3"}
+	numberOfArgs, _ := strconv.ParseInt(string(line[1:]), 10, 64)
+	args := make([]string, 0, numberOfArgs)
+	for i := int64(0); i < numberOfArgs; i++ {
+		line, _, _ = bufferedInput.ReadLine()
+		argLen, _ := strconv.ParseInt(string(line[1:]), 10, 32)
+		line, _, _ = bufferedInput.ReadLine()
+		args = append(args, string(line[len("charmander:nodes:"):argLen]))
+	}
+
+	return &args
 }
 
 func encodeReq(buf []byte, args []string) []byte {
