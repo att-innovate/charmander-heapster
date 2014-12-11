@@ -16,7 +16,7 @@ var (
 	argDbUsername     = flag.String("sink_influxdb_username", "root", "InfluxDB username")
 	argDbPassword     = flag.String("sink_influxdb_password", "root", "InfluxDB password")
 	argDbHost         = flag.String("sink_influxdb_host", "localhost:8086", "InfluxDB host:port")
-	argDbName         = flag.String("sink_influxdb_name", "k8s", "Influxdb database name")
+	argDbName         = flag.String("sink_influxdb_name", "charmander", "Influxdb database name")
 )
 
 type InfluxdbSink struct {
