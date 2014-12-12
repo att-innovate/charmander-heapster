@@ -4,6 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"time"
+	"io/ioutil"
+	"net/http"
+	"strings"
 
 	"github.com/att-innovate/charmander-heapster/sources"
 	"github.com/golang/glog"
@@ -25,6 +28,7 @@ type InfluxdbSink struct {
 	dbName         string
 	bufferDuration time.Duration
 	lastWrite      time.Time
+	containerIdMap map[string]string
 }
 
 func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string, spec cadvisor.ContainerSpec, stat *cadvisor.ContainerStats) (columns []string, values []interface{}) {
@@ -38,7 +42,7 @@ func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string,
 
 	// Container name
 	columns = append(columns, colContainerName)
-	values = append(values, containerName)
+	values = append(values, self.resolveContainer(containerName, hostname))
 
 	if spec.HasCpu {
 		// Cumulative Cpu Usage
@@ -129,6 +133,30 @@ func (self *InfluxdbSink) StoreData(ip Data) error {
 	return nil
 }
 
+func (self *InfluxdbSink) resolveContainer(containerId string, hostname string) string {
+	if containerId[0] == '/' { return containerId }
+
+	result := self.containerIdMap[containerId]
+	if len(result) > 0 { return result }
+
+	resp, err := http.Get("http://"+hostname+":31300/"+containerId)
+	if err != nil {
+		glog.Errorf("Failed to look up containerId - %s", err)
+		return ""
+	}
+	defer resp.Body.Close()
+	body, _ := ioutil.ReadAll(resp.Body)
+
+	if len(body) == 0 { return "" }
+
+	containerName := strings.TrimSpace(string(body))
+
+	self.containerIdMap[containerId] = containerName
+	glog.Infof("Resolved containerId - [%s] [%s]", containerId, containerName)
+
+	return containerName
+}
+
 func NewInfluxdbSink() (Sink, error) {
 	config := &influxdb.ClientConfig{
 		Host:     *argDbHost,
@@ -152,5 +180,6 @@ func NewInfluxdbSink() (Sink, error) {
 		dbName:         *argDbName,
 		bufferDuration: *argBufferDuration,
 		lastWrite:      time.Now(),
+		containerIdMap: make(map[string]string),
 	}, nil
 }
