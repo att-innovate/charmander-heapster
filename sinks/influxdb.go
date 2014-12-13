@@ -4,14 +4,14 @@ import (
 	"flag"
 	"fmt"
 	"time"
-	"io/ioutil"
-	"net/http"
-	"strings"
 
 	"github.com/att-innovate/charmander-heapster/sources"
+	"github.com/att-innovate/charmander-heapster/charmander"
 	"github.com/golang/glog"
+
 	cadvisor "github.com/google/cadvisor/info"
 	influxdb "github.com/influxdb/influxdb/client"
+
 )
 
 var (
@@ -29,6 +29,7 @@ type InfluxdbSink struct {
 	bufferDuration time.Duration
 	lastWrite      time.Time
 	containerIdMap map[string]string
+	metered        map[string]bool
 }
 
 func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string, spec cadvisor.ContainerSpec, stat *cadvisor.ContainerStats) (columns []string, values []interface{}) {
@@ -42,7 +43,7 @@ func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string,
 
 	// Container name
 	columns = append(columns, colContainerName)
-	values = append(values, self.resolveContainer(containerName, hostname))
+	values = append(values, containerName)
 
 	if spec.HasCpu {
 		// Cumulative Cpu Usage
@@ -94,13 +95,27 @@ func (self *InfluxdbSink) newSeries(tableName string, columns []string, points [
 }
 
 func (self *InfluxdbSink) handleContainers(containers []sources.RawContainer, tableName string) {
-	// TODO(vishh): Export spec into a separate table and update it whenever it changes.
 	for _, container := range containers {
+		containerName :=self.resolveContainerName(container.Name, container.Hostname)
+		if len(containerName) == 0 { continue }
+		if self.isMetered(containerName) == false { continue }
+
 		for _, stat := range container.Stats {
-			col, val := self.containerStatsToValues(container.Hostname, container.Name, container.Spec, stat)
+			col, val := self.containerStatsToValues(container.Hostname, containerName, container.Spec, stat)
 			self.series = append(self.series, self.newSeries(tableName, col, val))
 		}
 	}
+}
+
+func (self *InfluxdbSink) resolveContainerName(containerId string, hostname string) string {
+	if containerId[0] == '/' { return containerId }
+	if containerName := self.containerIdMap[containerId]; len(containerName) > 0 { return containerName }
+
+	containerName := charmander.ResolveContainerName(containerId, hostname)
+	self.containerIdMap[containerId] = containerName
+	glog.Infof("Resolved containerId - [%s] [%s]", containerId, containerName)
+
+	return containerName
 }
 
 func (self *InfluxdbSink) readyToFlush() bool {
@@ -133,28 +148,20 @@ func (self *InfluxdbSink) StoreData(ip Data) error {
 	return nil
 }
 
-func (self *InfluxdbSink) resolveContainer(containerId string, hostname string) string {
-	if containerId[0] == '/' { return containerId }
+func (self *InfluxdbSink) isMetered(containerName string) bool {
+	if metered, ok := self.metered[containerName]; ok { return metered }
 
-	result := self.containerIdMap[containerId]
-	if len(result) > 0 { return result }
+	result := false
 
-	resp, err := http.Get("http://"+hostname+":31300/"+containerId)
-	if err != nil {
-		glog.Errorf("Failed to look up containerId - %s", err)
-		return ""
+	if containerName[0] != '/' {
+		result = charmander.ContainerMetered(containerName)
+		glog.Infof("Container metered %s %v", containerName, result)
+
 	}
-	defer resp.Body.Close()
-	body, _ := ioutil.ReadAll(resp.Body)
 
-	if len(body) == 0 { return "" }
+	self.metered[containerName] = result
 
-	containerName := strings.TrimSpace(string(body))
-
-	self.containerIdMap[containerId] = containerName
-	glog.Infof("Resolved containerId - [%s] [%s]", containerId, containerName)
-
-	return containerName
+	return result
 }
 
 func NewInfluxdbSink() (Sink, error) {
@@ -181,5 +188,6 @@ func NewInfluxdbSink() (Sink, error) {
 		bufferDuration: *argBufferDuration,
 		lastWrite:      time.Now(),
 		containerIdMap: make(map[string]string),
+		metered:        make(map[string]bool),
 	}, nil
 }
