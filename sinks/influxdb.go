@@ -107,6 +107,15 @@ func (self *InfluxdbSink) handleContainers(containers []sources.RawContainer, ta
 	}
 }
 
+func (self *InfluxdbSink) handleMachines(machines []sources.RawContainer, tableName string) {
+	for _, machine := range machines {
+		for _, stat := range machine.Stats {
+			col, val := self.containerStatsToValues(machine.Hostname, machine.Name, machine.Spec, stat)
+			self.series = append(self.series, self.newSeries(tableName, col, val))
+		}
+	}
+}
+
 func (self *InfluxdbSink) resolveContainerName(containerId string, hostname string) string {
 	if containerId[0] == '/' { return containerId }
 	if containerName := self.containerIdMap[containerId]; len(containerName) > 0 { return containerName }
@@ -126,7 +135,7 @@ func (self *InfluxdbSink) StoreData(ip Data) error {
 	var seriesToFlush []*influxdb.Series
 	if data, ok := ip.(sources.ContainerData); ok {
 		self.handleContainers(data.Containers, statsTable)
-		self.handleContainers(data.Machine, machineTable)
+		self.handleMachines(data.Machine, machineTable)
 	} else {
 		return fmt.Errorf("Requesting unrecognized type to be stored in InfluxDB")
 	}
