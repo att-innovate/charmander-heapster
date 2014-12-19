@@ -159,6 +159,7 @@ func (self *InfluxdbSink) StoreData(ip Data) error {
 
 func (self *InfluxdbSink) isMetered(containerName string) bool {
 	if metered, ok := self.metered[containerName]; ok { return metered }
+	if charmander.ContainerReady(containerName) == false { return false }
 
 	result := false
 

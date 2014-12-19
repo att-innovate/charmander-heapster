@@ -13,6 +13,21 @@ import (
 var redisHost = flag.String("source_redis_host", "127.0.0.1:6379", "Redis IP Address:Port")
 
 
+func ContainerReady(containerName string) bool {
+	if redis := redisAvailable(); redis != nil {
+		defer redis.Close()
+		sendCommand(redis, "KEYS", "charmander:tasks:*")
+		containersReady := *parseResult(redis, "charmander:tasks:")
+		for _, containerReady := range containersReady {
+			if containerReady == containerName {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
 func ContainerMetered(containerName string) bool {
 	if redis := redisAvailable(); redis != nil {
 		defer redis.Close()
