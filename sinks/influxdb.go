@@ -23,13 +23,14 @@ var (
 )
 
 type InfluxdbSink struct {
-	client         *influxdb.Client
-	series         []*influxdb.Series
-	dbName         string
-	bufferDuration time.Duration
-	lastWrite      time.Time
-	containerIdMap map[string]string
-	metered        map[string]bool
+	client          *influxdb.Client
+	series          []*influxdb.Series
+	dbName          string
+	bufferDuration  time.Duration
+	lastWrite       time.Time
+	containerIdMap  map[string]string
+	metered         map[string]bool
+	databaseCreated bool
 }
 
 func (self *InfluxdbSink) containerStatsToValues(hostname, containerName string, spec cadvisor.ContainerSpec, stat *cadvisor.ContainerStats) (columns []string, values []interface{}) {
@@ -132,6 +133,15 @@ func (self *InfluxdbSink) readyToFlush() bool {
 }
 
 func (self *InfluxdbSink) StoreData(ip Data) error {
+	if self.databaseCreated == false {
+		if err := self.client.CreateDatabase(*argDbName); err != nil {
+			glog.Infof("Database creation failed - %s", err)
+			return err
+		} else {
+			self.databaseCreated = true
+		}
+	}
+
 	var seriesToFlush []*influxdb.Series
 	if data, ok := ip.(sources.ContainerData); ok {
 		self.handleContainers(data.Containers, statsTable)
@@ -187,17 +197,21 @@ func NewInfluxdbSink() (Sink, error) {
 		return nil, err
 	}
 	client.DisableCompression()
+	databaseCreated := true
 	if err := client.CreateDatabase(*argDbName); err != nil {
 		glog.Infof("Database creation failed - %s", err)
+		databaseCreated = false
 	}
+
 	// Create the database if it does not already exist. Ignore errors.
 	return &InfluxdbSink{
-		client:         client,
-		series:         make([]*influxdb.Series, 0),
-		dbName:         *argDbName,
-		bufferDuration: *argBufferDuration,
-		lastWrite:      time.Now(),
-		containerIdMap: make(map[string]string),
-		metered:        make(map[string]bool),
+		client:          client,
+		series:          make([]*influxdb.Series, 0),
+		dbName:          *argDbName,
+		bufferDuration:  *argBufferDuration,
+		lastWrite:       time.Now(),
+		containerIdMap:  make(map[string]string),
+		metered:         make(map[string]bool),
+		databaseCreated: databaseCreated,
 	}, nil
 }
