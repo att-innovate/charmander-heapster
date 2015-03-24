@@ -1,6 +1,8 @@
 package sources
 
 import (
+	"time"
+
 	cadvisor "github.com/google/cadvisor/info/v1"
 )
 
@@ -38,6 +40,6 @@ type Source interface {
 	GetInfo() (ContainerData, error)
 }
 
-func NewSource() (Source, error) {
-	return newExternalSource()
+func NewSource(pollDuration time.Duration) (Source, error) {
+	return newExternalSource(pollDuration)
 }

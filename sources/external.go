@@ -1,6 +1,8 @@
 package sources
 
 import (
+	"time"
+
 	"github.com/golang/glog"
 
 	"github.com/att-innovate/charmander-heapster/charmander"
@@ -27,8 +29,8 @@ func (self *ExternalSource) GetInfo() (ContainerData, error) {
 	}, nil
 }
 
-func newExternalSource() (Source, error) {
-	cadvisorSource := newCadvisorSource()
+func newExternalSource(pollDuration time.Duration) (Source, error) {
+	cadvisorSource := newCadvisorSource(pollDuration)
 	return &ExternalSource{
 		cadvisor: cadvisorSource,
 	}, nil

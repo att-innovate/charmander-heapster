@@ -26,7 +26,7 @@ func main() {
 }
 
 func doWork() error {
-	source, err := sources.NewSource()
+	source, err := sources.NewSource(*argPollDuration)
 	if err != nil {
 		return err
 	}
