@@ -9,7 +9,7 @@ import (
 	"github.com/att-innovate/charmander-heapster/charmander"
 	"github.com/golang/glog"
 
-	cadvisor "github.com/google/cadvisor/info"
+	cadvisor "github.com/google/cadvisor/info/v1"
 	influxdb "github.com/influxdb/influxdb/client"
 
 )

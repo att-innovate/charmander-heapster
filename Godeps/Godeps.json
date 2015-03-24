@@ -8,13 +8,13 @@
 		},
 		{
 			"ImportPath": "github.com/google/cadvisor/client",
-			"Comment": "0.8.0",
-			"Rev": "57c6fb08f4c6640c657c6fa9340bfe21f32289ef"
+			"Comment": "0.10.1-101-gcf13f4d",
+			"Rev": "cf13f4d5eef04002e8c7f66b9acda2718f5b2e4a"
 		},
 		{
-			"ImportPath": "github.com/google/cadvisor/info",
-			"Comment": "0.8.0",
-			"Rev": "57c6fb08f4c6640c657c6fa9340bfe21f32289ef"
+			"ImportPath": "github.com/google/cadvisor/info/v1",
+			"Comment": "0.10.1-101-gcf13f4d",
+			"Rev": "cf13f4d5eef04002e8c7f66b9acda2718f5b2e4a"
 		},
 		{
 			"ImportPath": "github.com/influxdb/influxdb/client",
